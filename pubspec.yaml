@@ -1,0 +1,19 @@
+name: firebase_example
+description: A Flutter application with Firestore user input.
+publish_to: 'none'
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.14.0
+  cloud_firestore: ^4.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
